@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tóm tắt văn bản</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tóm tắt văn bản</h1>
+        <textarea id="inputText" placeholder="Nhập văn bản cần tóm tắt" rows="10"></textarea>
+        <button onclick="summarizeText()">Tóm tắt</button>
+        <div id="loading" style="display: none;">Đang tóm tắt...</div>
+        <div id="summaryResult"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
